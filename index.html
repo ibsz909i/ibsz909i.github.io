@@ -3,203 +3,301 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CS 499 ePortfolio | Ibrahim Jabr</title>
+  <meta name="description" content="Ibrahim Jaber is a full-stack and mobile software engineer building production web, mobile, PostgreSQL, POS integration, and operations platforms.">
+  <title>Ibrahim Jaber | Full-Stack and Mobile Software Engineer</title>
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <header class="topbar">
-    <div class="wrap">
-      <div class="brand-row">
-        <div class="brand">
-          <div class="brand-mark">CS</div>
-          <div class="brand-copy">
-            <strong>Ibrahim Jabr</strong>
-            <span>CS 499 Computer Science Capstone</span>
-          </div>
-        </div>
-        <nav class="site-nav">
-          <a class="active" href="index.html">Self-Assessment</a>
-          <a href="code-review.html">Code Review</a>
-          <a href="software.html">Software</a>
-          <a href="algorithms.html">Algorithms</a>
-          <a href="databases.html">Databases</a>
-        </nav>
-      </div>
+  <header class="site-header">
+    <div class="wrap nav-shell">
+      <a class="identity" href="#top" aria-label="Ibrahim Jaber home">
+        <span class="identity-mark">IJ</span>
+        <span>
+          <strong>Ibrahim Jaber</strong>
+          <small>Full-Stack and Mobile Software Engineer</small>
+        </span>
+      </a>
 
-      <section class="hero-panel">
-        <div class="hero-layout">
-          <div class="hero-copy">
-            <span class="eyebrow">Professional Self-Assessment</span>
-            <h1>My CS 499 ePortfolio</h1>
-            <p>This portfolio brings together the work I completed across the computer science program. It includes my code review, my three enhanced artifacts, the supporting narratives, and my professional self-assessment. The goal of this site is to show not only what I built, but also how I improved older work and how my skills grew over time.</p>
-            <div class="download-row">
-              <a class="button" href="files/CS499_Professional_Self_Assessment_Ibrahim_Jabr.docx">Download Self-Assessment</a>
-              <a class="button-secondary" href="code-review.html">Open Code Review</a>
-            </div>
-          </div>
-          <aside class="hero-side">
-            <section class="callout">
-              <h3>Career Direction</h3>
-              <p>My main interest is software development. I want to keep building applications that are useful, well organized, and easier for people to use. This portfolio reflects that goal through mobile development, algorithm analysis, and database-driven design.</p>
-            </section>
-            <section class="callout">
-              <h3>What This Portfolio Shows</h3>
-              <ul class="list-clean">
-                <li>Planning improvements through code review</li>
-                <li>Enhancing real course artifacts instead of starting over</li>
-                <li>Connecting technical work to program outcomes</li>
-              </ul>
-            </section>
-          </aside>
-        </div>
-      </section>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#depth">Technical Depth</a>
+        <a href="#experience">Experience</a>
+        <a href="#archive">Capstone Archive</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
   </header>
 
-  <main class="main">
-    <div class="wrap">
-      <section class="stat-strip">
-        <article class="stat-card">
-          <strong>Artifacts</strong>
-          <span>3</span>
-          <p>Software design, algorithms and data structures, and databases.</p>
-        </article>
-        <article class="stat-card">
-          <strong>Narratives</strong>
-          <span>3</span>
-          <p>Each enhancement includes a written reflection and outcome discussion.</p>
-        </article>
-        <article class="stat-card">
-          <strong>Code Review</strong>
-          <span>1</span>
-          <p>The video review explains the original artifacts and planned changes.</p>
-        </article>
-        <article class="stat-card">
-          <strong>Self-Assessment</strong>
-          <span>1</span>
-          <p>The first section of the portfolio ties all of the work together.</p>
-        </article>
-      </section>
+  <main id="top">
+    <section class="hero-section">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Software engineering portfolio</p>
+          <h1>Ibrahim Jaber</h1>
+          <p class="lead">Full-stack and mobile software engineer building product systems where polished interfaces connect to real backend logic: PostgreSQL data models, role-based access, state workflows, API boundaries, QA, and native mobile delivery.</p>
 
-      <section class="section">
-        <div class="section-heading">
-          <div>
-            <span class="eyebrow">Portfolio Overview</span>
-            <h2 class="section-title">How the pieces connect</h2>
+          <div class="hero-actions">
+            <a class="button" href="mailto:Ibrahimjaber909@gmail.com">Email Me</a>
+            <a class="button-secondary" href="https://github.com/ibsz909i">GitHub</a>
+            <a class="button-secondary" href="https://ruya.ps/">Ruya.ps</a>
           </div>
-          <p class="section-text">The three artifacts show different parts of my growth. Together, they show technical skill, reflection, and improvement across the program.</p>
         </div>
 
-        <div class="card-grid">
-          <article class="card">
-            <span class="kicker">Software Design and Engineering</span>
-            <h3>CS 360 Sensor Demo</h3>
-            <p>I improved an Android sensor app by making the layout clearer, showing live status and movement values, and moving display formatting into a helper class for cleaner organization.</p>
-            <div class="download-row">
-              <a class="button-secondary" href="software.html">View Section</a>
-            </div>
-          </article>
-          <article class="card">
-            <span class="kicker">Algorithms and Data Structures</span>
-            <h3>CS 370 Treasure Maze</h3>
-            <p>I enhanced a reinforcement learning project by adding a shortest-path comparison and measurable results, which gave a stronger explanation of algorithm performance.</p>
-            <div class="download-row">
-              <a class="button-secondary" href="algorithms.html">View Section</a>
-            </div>
-          </article>
-          <article class="card">
-            <span class="kicker">Databases</span>
-            <h3>CS 340 Grazioso Salvare Dashboard</h3>
-            <p>I improved the CRUD layer and the dashboard so the project now supports stronger filtering, better chart output, and safer map logic based on field names.</p>
-            <div class="download-row">
-              <a class="button-secondary" href="databases.html">View Section</a>
-            </div>
-          </article>
-          <article class="card">
-            <span class="kicker">Code Review</span>
-            <h3>Planning Before Enhancing</h3>
-            <p>The code review is the starting point for the whole portfolio. It explains the original work, the issues I saw, and the reason behind each enhancement choice.</p>
-            <div class="download-row">
-              <a class="button-secondary" href="code-review.html">Watch Review</a>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="section-heading">
-          <div>
-            <span class="eyebrow">Program Outcomes</span>
-            <h2 class="section-title">Progress across the computer science program</h2>
+        <aside class="system-panel" aria-label="Portfolio highlights">
+          <div class="panel-bar">
+            <span>Product systems</span>
+            <strong>Web + Mobile + Backend</strong>
           </div>
-          <p class="section-text">This portfolio shows evidence of growth in each of the five program outcomes, even though each artifact highlights them in a different way.</p>
-        </div>
-
-        <div class="outcome-grid">
-          <article class="mini-card">
-            <span class="mini-label">Outcome 1</span>
-            <strong>Collaboration and decision support</strong>
-            <p>I practiced this outcome through code review, explanation, and clear artifact narratives.</p>
-          </article>
-          <article class="mini-card">
-            <span class="mini-label">Outcome 2</span>
-            <strong>Professional communication</strong>
-            <p>This site, the narratives, and the self-assessment show written communication for a professional audience.</p>
-          </article>
-          <article class="mini-card">
-            <span class="mini-label">Outcome 3</span>
-            <strong>Algorithms and trade-offs</strong>
-            <p>The treasure maze enhancement focuses on algorithm evaluation and comparison.</p>
-          </article>
-          <article class="mini-card">
-            <span class="mini-label">Outcome 4</span>
-            <strong>Tools, techniques, and implementation</strong>
-            <p>The mobile app and dashboard enhancements show practical development and improvement work.</p>
-          </article>
-          <article class="mini-card">
-            <span class="mini-label">Outcome 5</span>
-            <strong>Security mindset</strong>
-            <p>I show progress here through safer data handling, better query control, and more careful application logic.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="section-heading">
-          <div>
-            <span class="eyebrow">Downloads</span>
-            <h2 class="section-title">Main portfolio files</h2>
+          <div class="system-map">
+            <div>
+              <span>Frontend</span>
+              <strong>React, TypeScript, Vue.js, Nuxt, React Native, Capacitor</strong>
+            </div>
+            <div>
+              <span>Backend and data</span>
+              <strong>Node.js, REST APIs, SQL, PostgreSQL, authentication, authorization, state machines</strong>
+            </div>
+            <div>
+              <span>Product operations</span>
+              <strong>QA testing, Agile, Scrum, release checks, Microsoft 365 Admin, Google Workspace</strong>
+            </div>
           </div>
-          <p class="section-text">The full course documents are available below in the same format used for the course submission.</p>
-        </div>
+        </aside>
+      </div>
+    </section>
 
-        <div class="download-grid">
-          <article class="card">
-            <h3>Self-Assessment</h3>
-            <p>The professional self-assessment introduces the portfolio and explains how the artifacts support my growth and career goals.</p>
-            <div class="download-row">
-              <a class="button" href="files/CS499_Professional_Self_Assessment_Ibrahim_Jabr.docx">Download File</a>
+    <section class="wrap proof-grid" aria-label="Portfolio proof points">
+      <article class="metric">
+        <strong>2,000+</strong>
+        <span>students supported through school operations workflows</span>
+      </article>
+      <article class="metric">
+        <strong>200+</strong>
+        <span>staff users supported across administrator, teacher, parent, student, and HR flows</span>
+      </article>
+      <article class="metric">
+        <strong>3</strong>
+        <span>major product areas: school operations, local loyalty, and professional UI delivery</span>
+      </article>
+      <article class="metric">
+        <strong>Full-stack</strong>
+        <span>from responsive interfaces to data models, API workflows, QA, and release support</span>
+      </article>
+    </section>
+
+    <section id="work" class="wrap section">
+      <div class="section-heading">
+        <p class="eyebrow">Selected product work</p>
+        <h2>Projects positioned for real hiring signals</h2>
+        <p>These case studies focus on product engineering signals: backend rules, data workflows, mobile delivery, UI quality, QA, and operational ownership without exposing sensitive internals.</p>
+      </div>
+
+      <div class="project-list">
+        <article class="project-card featured">
+          <div class="project-head">
+            <div>
+              <span class="kicker">Internship delivery</span>
+              <h3>Northline Product Studio</h3>
             </div>
-          </article>
-          <article class="card">
-            <h3>Code Review Summary</h3>
-            <p>This short document supports the code review video and outlines the main review points for the three chosen artifacts.</p>
-            <div class="download-row">
-              <a class="button" href="files/CS499_Code_Review_Summary_Ibrahim_Jabr.docx">Download File</a>
+            <span class="project-status">Aug 2024 - Jul 2025</span>
+          </div>
+          <p>Software engineering internship focused on practical product delivery across UI development, QA testing, collaboration, admin tooling, and release support.</p>
+          <ul class="check-list">
+            <li>Built and refined responsive web and mobile UI flows, translating assigned tasks and product feedback into cleaner, more usable product updates.</li>
+            <li>Supported QA testing, bug reproduction, issue documentation, and release verification so fixes were clearer, easier to review, and safer to ship.</li>
+            <li>Worked in Agile and Scrum routines while supporting Microsoft 365 Admin, Google Workspace, internal tooling, implementation communication, and team feedback loops.</li>
+          </ul>
+          <div class="tag-row">
+            <span>UI development</span>
+            <span>UI/UX refinement</span>
+            <span>QA testing</span>
+            <span>Bug documentation</span>
+            <span>Agile</span>
+            <span>Scrum</span>
+            <span>Microsoft 365</span>
+            <span>Google Workspace</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-head">
+            <div>
+              <span class="kicker">Production platform</span>
+              <h3>RuyaPS School Management System</h3>
             </div>
-          </article>
-        </div>
-      </section>
-    </div>
+            <div class="project-links">
+              <a class="text-link" href="https://github.com/ibsz909i/ruya-case-study">Case Study</a>
+              <a class="text-link" href="https://apps.apple.com/us/app/ruyaps/id6760615814">App Store</a>
+              <a class="text-link" href="https://ruya.ps/">Live Site</a>
+            </div>
+          </div>
+          <p>Founder and full-stack/mobile engineer for a production school management system supporting multi-role school operations across attendance, academics, HR, finance, wellness, messaging, AI-assisted workflows, and native mobile access.</p>
+          <ul class="check-list">
+            <li>Designed PostgreSQL-backed workflows for school isolation, parent-student relationships, class rosters, QR attendance sessions, gradebooks, report-card release, notifications, admissions, refunds, and HR permission templates.</li>
+            <li>Built role-aware product surfaces for administrators, HR, teachers, students, and parents with responsive React, TypeScript, Capacitor, controlled data access, and mobile-first operational flows.</li>
+            <li>Implemented AI-assisted school workflows with consent gates, rate limits, minimal context sharing, output cleanup, and practical use cases such as email support, quiz generation, document explanation, and scheduling assistance.</li>
+          </ul>
+          <div class="tag-row">
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>Capacitor</span>
+            <span>PostgreSQL</span>
+            <span>QR attendance</span>
+            <span>AI workflows</span>
+            <span>RBAC</span>
+            <span>Notifications</span>
+            <span>Finance states</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-head">
+            <div>
+              <span class="kicker">MVP product system</span>
+              <h3>NAMAA Local Loyalty Platform</h3>
+            </div>
+            <span class="project-status">Employer case study</span>
+          </div>
+          <p>Full-stack/mobile product work for a customer, merchant, and admin loyalty system designed around local discovery, wallet behavior, merchant operations, and POS-aware redemption workflows.</p>
+          <ul class="check-list">
+            <li>Shaped wallet, onboarding, billing, promotions, QR/barcode redemption, merchant store operations, and admin review flows for a multi-sided marketplace.</li>
+            <li>Planned Clover and Square POS integration paths, transaction workflows, merchant catalog synchronization, and redemption verification without exposing sensitive implementation internals.</li>
+            <li>Worked on discovery ranking, offer personalization, location-aware search, merchant warm-cache behavior, and PostgreSQL-backed data models for faster product interactions.</li>
+          </ul>
+          <div class="tag-row">
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>Capacitor</span>
+            <span>PostgreSQL</span>
+            <span>Clover POS</span>
+            <span>Square POS</span>
+            <span>Personalization</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="depth" class="wrap section">
+      <div class="section-heading">
+        <p class="eyebrow">Technical depth</p>
+        <h2>Engineering strengths employers can screen for</h2>
+        <p>A recruiter or hiring manager should immediately see the job-relevant work: backend rules, PostgreSQL, UI implementation, API/data workflows, authentication, mobile delivery, QA, and production support.</p>
+      </div>
+
+      <div class="skill-grid">
+        <article class="skill-card">
+          <h3>Backend, APIs, and Data</h3>
+          <p>Build PostgreSQL schemas, role boundaries, REST API workflows, authentication, authorization, transactional state workflows, query-indexed data access, notification routing, and integration-ready backend logic.</p>
+        </article>
+        <article class="skill-card">
+          <h3>UI Engineering</h3>
+          <p>Turn product requirements into responsive React, TypeScript, Vue.js, Nuxt, Tailwind, and mobile-first interfaces with clear states, polished layout, reusable components, and UI/UX refinement.</p>
+        </article>
+        <article class="skill-card">
+          <h3>Product Systems and Mobile</h3>
+          <p>Ship cross-platform product flows with React Native, Expo, and Capacitor, including QR/barcode scanning, attendance flows, wallet/redemption UX, native constraints, route state, and mobile performance details.</p>
+        </article>
+        <article class="skill-card">
+          <h3>QA, Release, and Operations</h3>
+          <p>Use QA testing, Playwright checks, Sentry triage, issue documentation, Agile/Scrum routines, GitHub workflows, Microsoft 365 Admin, and Google Workspace support to help teams ship safely.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="wrap section">
+      <div class="section-heading">
+        <p class="eyebrow">Experience and credentials</p>
+        <h2>Professional timeline</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <span>August 2024 - July 2025</span>
+          <div>
+            <h3>Software Engineering Intern - Northline Product Studio</h3>
+            <p>UI development, QA testing, Agile product delivery, Microsoft 365 Admin, Google Workspace, documentation, and release support.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <span>2023 - Present</span>
+          <div>
+            <h3>Founder / Full-Stack / Mobile Engineer - RuyaPS</h3>
+            <p>Production school management platform spanning web, mobile, PostgreSQL-backed workflows, authentication, assignments, QR attendance, HR permissions, academic records, AI workflows, finance, notifications, documents, and stakeholder-driven product delivery.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <span>2026</span>
+          <div>
+            <h3>B.S. Computer Science - Southern New Hampshire University</h3>
+            <p>Computer science foundation in software engineering, algorithms, data structures, databases, Java, C, Python, and applied capstone delivery.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <span>2027 - 2028 expected</span>
+          <div>
+            <h3>M.S. Artificial Intelligence - New Jersey Institute of Technology</h3>
+            <p>Graduate study in progress, aligned with applied software systems, data workflows, and AI-focused engineering.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="credential-grid">
+        <article class="credential">
+          <strong>Python &amp; Machine Learning</strong>
+          <span>The Hope International Company - 60-hour program covering Python, machine learning, PyTorch, and TensorFlow.</span>
+        </article>
+        <article class="credential">
+          <strong>Front End Web Developer Nanodegree</strong>
+          <span>Udacity - 3-month front-end web development program through Palestine Launchpad with Google.</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="archive" class="wrap section">
+      <div class="section-heading">
+        <p class="eyebrow">Capstone archive</p>
+        <h2>Original academic portfolio materials</h2>
+        <p>The previous CS 499 materials remain available as an archive, but the main page now represents current product engineering work.</p>
+      </div>
+
+      <div class="archive-grid">
+        <a class="archive-link" href="code-review.html">
+          <span>Code Review</span>
+          <strong>Original artifact review and enhancement plan</strong>
+        </a>
+        <a class="archive-link" href="software.html">
+          <span>Software Design</span>
+          <strong>Android sensor app enhancement</strong>
+        </a>
+        <a class="archive-link" href="algorithms.html">
+          <span>Algorithms</span>
+          <strong>Reinforcement learning and shortest-path comparison</strong>
+        </a>
+        <a class="archive-link" href="databases.html">
+          <span>Databases</span>
+          <strong>MongoDB dashboard and CRUD enhancement</strong>
+        </a>
+      </div>
+    </section>
+
+    <section id="contact" class="wrap contact-section">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Open to full-stack, UI, mobile, and backend-focused software roles.</h2>
+        <p>I am strongest when the work connects product usability with real data workflows, mobile/web delivery, and practical engineering ownership.</p>
+      </div>
+      <div class="contact-actions">
+        <a class="button" href="mailto:Ibrahimjaber909@gmail.com">Ibrahimjaber909@gmail.com</a>
+        <a class="button-secondary" href="https://github.com/ibsz909i">github.com/ibsz909i</a>
+      </div>
+    </section>
   </main>
 
   <footer class="footer">
-    <div class="wrap">
-      <div class="footer-shell">
-        <p>CS 499 ePortfolio</p>
-        <p class="footer-note">Ibrahim Jabr | Computer Science Capstone</p>
-      </div>
+    <div class="wrap footer-shell">
+      <p>Ibrahim Jaber</p>
+      <p class="footer-note">Full-stack and mobile software engineer</p>
     </div>
   </footer>
 </body>

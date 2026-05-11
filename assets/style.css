@@ -512,9 +512,18 @@ h3 {
   font-size: 1.18rem;
 }
 
+.credential-heading {
+  display: grid;
+  gap: 6px;
+  margin: 24px 0 12px;
+}
+
+.credential-heading h3 {
+  font-size: 1.2rem;
+}
+
 .credential-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  margin-top: 14px;
 }
 
 .credential {
